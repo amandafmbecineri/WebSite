@@ -5,10 +5,10 @@ import TagManager from 'react-gtm-module';
 function App() {
   useEffect(() => {
     const tagManagerArgs = {
-      gtmId: 'AW-16881452075' // Substitua pelo seu ID real
+      gtmId: 'AW-16881452075' 
     };
     TagManager.initialize(tagManagerArgs);
-  }, []); // [] garante que execute apenas uma vez
+  }, []); 
 
   return (
     <AmandaBecineriSite />
